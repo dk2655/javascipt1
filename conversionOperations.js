@@ -21,3 +21,28 @@ let randomnumber = 33
 let stringNumber = String(randomnumber)
 console.log(stringNumber)
 console.log( typeof stringNumber)
+
+
+
+//*************************operations*************** */
+
+let value = 9
+let negvalue = -value
+console.log(negvalue);
+
+ let str1 = "hello"
+ let str2 = " dk"
+
+ let str3 = str1 + str2
+ console.log(str3);
+
+ //postfix and prefix 
+
+ let counter = 101;
+ ++counter
+ console.log(counter);
+ 
+
+ let counters = 101;
+ counters++
+ console.log(counters);
