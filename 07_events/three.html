@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coding karni hai</title>
+</head>
+<body>
+    <h1>Coding karenge</h1>
+    <button id = "stop">Stop</button>
+    <button id = "start">Start</button>
+</body>
+
+<script>
+const saydate = function(str){
+    console.log(str, Date.now());
+}
+
+const intervalid = setInterval(saydate,1000,"hi")
+
+
+document.querySelector('#stop').addEventListener('click',function(){
+    clearInterval(intervalid)
+    console.log("stopped");
+})
+document.querySelector('#start').addEventListener('click',function(){
+   intervalid;
+})
+
+</script>
+</html>
